@@ -11,3 +11,5 @@
 [Largest subarray of 0's and 1's](https://www.geeksforgeeks.org/problems/largest-subarray-of-0s-and-1s/1)
 
 [Merge two sorted linked lists](https://www.geeksforgeeks.org/problems/merge-two-sorted-linked-lists/1)
+
+[Find the first node of loop in linked list](https://www.geeksforgeeks.org/problems/find-the-first-node-of-loop-in-linked-list--170645/1)
