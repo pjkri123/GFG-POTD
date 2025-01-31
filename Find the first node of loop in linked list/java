@@ -1,0 +1,13 @@
+class Solution {
+    public static Node findFirstNode(Node head) {
+        // code here
+        HashSet<Node> curr=new HashSet<>();
+        Node node=head;
+        while(node!=null) {
+            if(curr.contains(node)) return node;
+            curr.add(node);
+            node=node.next;
+        }
+        return null;
+    }
+}
