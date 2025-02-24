@@ -1,0 +1,23 @@
+class Solution {
+    static boolean isBalanced(String s) {
+        // code here
+        Stack<Character> stack=new Stack<>();
+        for(int i=0;i<s.length();i++) {
+            char ch1=s.charAt(i);
+            if(ch1=='(' || ch1=='{' || ch1=='[') stack.push(ch1);
+            else if(ch1==')' || ch1=='}' || ch1==']') {
+                if(!stack.empty()) {
+                    char ch2=stack.pop();
+                    if(!isValid(ch2,ch1)) return false;
+                }
+                else return false;
+            }
+        }
+        return stack.empty();
+    }
+    static boolean isValid(char ch1,char ch2) {
+        if((ch1=='(' && ch2==')') || (ch1=='{' && ch2=='}') || (ch1=='[' && ch2==']'))
+            return true;
+        return false;
+    }
+}
