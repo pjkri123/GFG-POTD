@@ -1,0 +1,56 @@
+class Solution {
+    static String longestPalindrome(String s) {
+        // code here
+        
+        // case 1: TLE
+        /*      
+        int len=0;
+        String res="";
+        
+        for(int i=0;i<s.length()-1;i++) {
+            for(int j=i;j<s.length();j++) {
+                String str=s.substring(i,j+1);
+                if(isPalindrome(str)) {
+                    if(len<str.length()) {
+                        len=str.length();
+                        res=str;
+                    }
+                }
+            }
+        }
+        return res;
+    }
+    static boolean isPalindrome(String s) {
+        int i=0;
+        int j=s.length()-1;
+        while(i<j) {
+            if(s.charAt(i)!=s.charAt(j)) return false;
+            i++;
+            j--;
+        }
+        return true;
+    
+        
+        */
+        
+    
+    // Case 2:
+        
+        if(s.length()<=1) return s;
+        String str=s.substring(0,1);
+        for(int i=0;i<s.length();i++) {
+            String odd=palindrome(s,i,i);
+            String even=palindrome(s,i,i+1);
+            if(odd.length()>str.length()) str=odd;
+            if(even.length()>str.length()) str=even;
+        }
+        return str;
+    }
+    static String palindrome(String s, int i, int j) {
+        while(i>=0 && j<s.length() && s.charAt(i)==s.charAt(j)) {
+            i--;
+            j++;
+        }
+        return s.substring(i+1,j);
+    }
+}
