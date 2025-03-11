@@ -1,0 +1,26 @@
+class Solution {
+    static String decodeString(String s) {
+        // code here
+        Stack<Integer> count=new Stack<>();
+        Stack<String> str=new Stack<>();
+        String curr="";
+        int num=0;
+        for(char c:s.toCharArray()) {
+            if(Character.isDigit(c)) num=num*10+(c-'0');
+            else if(c=='[') {
+                count.push(num);
+                str.push(curr);
+                curr="";
+                num=0;
+            }
+            else if(c==']') {
+                int timesOfNum=count.pop();
+                String prev=str.pop();
+                String decode=curr.repeat(timesOfNum);
+                curr=prev+decode;
+            }
+            else curr+=c;
+        }
+        return curr;
+    }
+}
