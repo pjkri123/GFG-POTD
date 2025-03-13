@@ -19,3 +19,5 @@
 [Longest Palindrome in a String](https://www.geeksforgeeks.org/problems/longest-palindrome-in-a-string3411/1)
 
 [Triplet Sum in Array](https://www.geeksforgeeks.org/problems/triplet-sum-in-array-1587115621/1?page=1&category=Arrays,Strings&status=unsolved,attempted&sortBy=submissions)
+
+[Missing And Repeating](https://www.geeksforgeeks.org/problems/find-missing-and-repeating2512/1?page=1&category=Arrays,Strings&status=unsolved,attempted&sortBy=submissions)
