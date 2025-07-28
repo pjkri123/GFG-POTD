@@ -25,6 +25,7 @@ class Solution {
         return ans*factorial(hm.size());
         
     }
+    // return factorial
     private int factorial(int num) {
         int fact=1;
         while(num>0) {
