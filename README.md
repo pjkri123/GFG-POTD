@@ -21,3 +21,10 @@
 [Triplet Sum in Array](https://www.geeksforgeeks.org/problems/triplet-sum-in-array-1587115621/1?page=1&category=Arrays,Strings&status=unsolved,attempted&sortBy=submissions)
 
 [Missing And Repeating](https://www.geeksforgeeks.org/problems/find-missing-and-repeating2512/1?page=1&category=Arrays,Strings&status=unsolved,attempted&sortBy=submissions)
+
+[Count Unique Vowel Strings](https://www.geeksforgeeks.org/problems/count-unique-vowel-strings/1)
+
+[Smallest Positive Missing](https://www.geeksforgeeks.org/problems/smallest-positive-missing-number-1587115621/1)
+
+[Set Matrix Zeros](https://www.geeksforgeeks.org/problems/set-matrix-zeroes/1)
+
