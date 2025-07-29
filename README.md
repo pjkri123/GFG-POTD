@@ -28,3 +28,5 @@
 
 [Set Matrix Zeros](https://www.geeksforgeeks.org/problems/set-matrix-zeroes/1)
 
+[Majority Element - More Than n/3](https://www.geeksforgeeks.org/problems/majority-vote/1)
+
