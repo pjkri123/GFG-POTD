@@ -30,3 +30,6 @@
 
 [Majority Element - More Than n/3](https://www.geeksforgeeks.org/problems/majority-vote/1)
 
+[Subarrays with sum K](https://www.geeksforgeeks.org/problems/subarrays-with-sum-k/1)
+
+
