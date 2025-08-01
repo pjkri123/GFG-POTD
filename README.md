@@ -32,4 +32,4 @@
 
 [Subarrays with sum K](https://www.geeksforgeeks.org/problems/subarrays-with-sum-k/1)
 
-
+[Balancing Consonants and Vowels Ratio](https://www.geeksforgeeks.org/problems/balancing-consonants-and-vowels-ratio/1)
