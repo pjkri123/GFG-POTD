@@ -33,3 +33,6 @@
 [Subarrays with sum K](https://www.geeksforgeeks.org/problems/subarrays-with-sum-k/1)
 
 [Balancing Consonants and Vowels Ratio](https://www.geeksforgeeks.org/problems/balancing-consonants-and-vowels-ratio/1)
+
+[Palindrome Sentence](https://www.geeksforgeeks.org/problems/string-palindromic-ignoring-spaces4723/1)
+
