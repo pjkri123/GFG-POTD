@@ -36,3 +36,6 @@
 
 [Palindrome Sentence](https://www.geeksforgeeks.org/problems/string-palindromic-ignoring-spaces4723/1)
 
+[Tywin's War Strategy](https://www.geeksforgeeks.org/problems/tywins-war-strategy0527/1)
+
+
